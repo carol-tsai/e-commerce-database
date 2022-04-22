@@ -18,11 +18,23 @@
     npm i
 
   ## Usage
-  Run schema, run seeds, run node server to start the server. Once the server is running, you will
+  Create the database by starting mysql and running
+
+    source ./db/schema.sql
+  
+  Then seed your database by running
+
+    node seeds
+
+  Start the application by running 
+  
+    node server.js
+
+  Once the server is running, you will
   have access to get, post, put, and delete routes for products, categories, and tags for your
   e-commerce site.
 
-  Viedo walkthrough:
+  [Walkthrough video](https://drive.google.com/file/d/1AifgNYToAHNlRM60FO4sfI-MF5NZNxea/view?usp=sharing)
 
   ## License
   MIT License
